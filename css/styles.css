@@ -1,0 +1,226 @@
+:root {
+  --text-color: #2e2f42;
+  --text-web-color: #4d5ae5;
+  --white-text-color: white;
+  --hover-color: #404bbf;
+  --team-background: rgba(244, 244, 253, 1);
+}
+
+html,
+body {
+  width: 1440px;
+  margin: 0 auto;
+  color: var(--text-color);
+}
+body {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
+header {
+  position: relative;
+}
+nav {
+  display: inline-block;
+  height: 72px;
+}
+address {
+  display: inline-block;
+}
+address ul {
+  padding: 0;
+}
+address ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+address li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+address li a:hover {
+  color: var(--hover-color);
+}
+.nav-ul {
+  display: inline-block;
+  padding: 0;
+  margin: 24px 332px 24px 0;
+}
+.list-items {
+  display: inline-block;
+  margin-right: 40px;
+}
+.list-items:last-child {
+  margin: 0;
+}
+.list-items a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.list-items a:active {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+.list-items a:hover {
+  color: var(--hover-color);
+}
+.raleway-text {
+  font-family: "Raleway", serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--text-color);
+  line-height: 24px;
+  margin: 24px 76px 24px 156px;
+}
+.raleway-text span {
+  color: var(--text-web-color);
+}
+.section-first {
+  background-color: var(--text-color);
+  height: 600px;
+  position: relative;
+}
+.section-first h1 {
+  margin: 188px 472px 292px 472px;
+  position: absolute;
+  width: 496px;
+  color: var(--white-text-color);
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  height: 120px;
+  line-height: 60px;
+}
+.section-first button {
+  display: block;
+  position: absolute;
+  margin: 356px 635px 188px 635px;
+  width: 169px;
+  height: 56px;
+  background-color: var(--text-web-color);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+}
+.section-first button:hover {
+  background-color: var(--hover-color);
+}
+.section-sec {
+  position: relative;
+}
+.column {
+  display: inline-block;
+  width: 264px;
+  height: 104px;
+  padding: 0;
+  margin: 120px 24px 120px 0px;
+}
+.column-list {
+  list-style: none;
+  padding: 0;
+}
+.margin-left {
+  margin-left: 156px;
+}
+.column h2,
+.column p {
+  margin: 0;
+}
+.section-team {
+  background-color: var(--team-background);
+  height: 732px;
+  position: relative;
+}
+.title-team {
+  display: block;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-top: 120px;
+  margin: 0;
+  margin-bottom: 72px;
+}
+.team-ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0px 24px 0px 0px;
+  background-color: var(--white-text-color);
+  height: 380px;
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229;
+}
+.team-ul li {
+  position: relative;
+  list-style: none;
+  text-align: center;
+  line-height: 24px;
+}
+.bold {
+  font-weight: 500;
+  font-size: 20px;
+  top: 32px;
+  position: absolute;
+}
+.text {
+  position: absolute;
+  top: 40px;
+  font-size: 16px;
+}
+.left {
+  margin-left: 156px;
+}
+.right {
+  margin-right: 156px;
+  position: absolute;
+}
+.section-portfolio {
+  position: relative;
+}
+.port-ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-right: 24px;
+  position: relative;
+  left: 156px;
+  margin-bottom: 48px;
+  border: 1px solid #e7e9fc;
+  height: 420px;
+}
+.port-ul li {
+  list-style: none;
+  position: relative;
+  text-indent: 16px;
+}
+.port-ul li:first-child {
+  text-indent: inherit;
+}
+footer {
+  margin-top: 72px;
+  background-color: var(--text-color);
+  height: 312px;
+  position: relative;
+}
+footer div {
+  width: 264px;
+  height: 112px;
+  color: var(--white-text-color);
+  text-align: left;
+  position: absolute;
+  top: 100px;
+  left: 156px;
+}
+.white-web {
+  color: var(--white-text-color);
+  margin: 0;
+}
